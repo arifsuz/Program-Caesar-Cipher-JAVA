@@ -1,4 +1,4 @@
-# CAESAR CIPER ENCRYPTION:
+# CAESAR CIPHER ENCRYPTION:
 Repositor ini berisi program Casesar Ciper untuk enkripsi dan deskripsi sebuah text untuk mengamankan sebuah data
 This repository contains a Caesar Cipher program for encrypting and decrypting text to secure data.
 
