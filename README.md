@@ -1,5 +1,5 @@
 # CAESAR CIPHER ENCRYPTION:
-Repositor ini berisi program Casesar Ciper untuk enkripsi dan deskripsi sebuah text untuk mengamankan sebuah data
+Repositor ini berisi program Casesar Ciper untuk enkripsi dan deskripsi sebuah text untuk mengamankan sebuah data.
 This repository contains a Caesar Cipher program for encrypting and decrypting text to secure data.
 
 # BAHASA INDONESIA:
@@ -48,7 +48,6 @@ Repositor ini terdiri dari dua bahasa yaitu Bahasa Indonesia dan Bahasa Inggris
 
 # ENGLISH LANGUAGE:
 The repository consists of two languages: Bahasa Indonesia and English.
-
 
 # System Requirements:
 - Java Development Kit (JDK) installed on your system.
