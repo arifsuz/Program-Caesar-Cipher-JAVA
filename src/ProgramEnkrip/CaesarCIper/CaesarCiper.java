@@ -17,22 +17,6 @@ public class CaesarCiper {
         return encryptedText;
     }
 
-    public static String decrypt(String text, int shiftKey) {
-        text = text.toLowerCase();
-        String decryptedText = "";
-        for (int i = 0; i < text.length(); i++) {
-            int charPosition = ALPHABET.indexOf(text.charAt(i));
-            int keyValue = (shiftKey + charPosition) % 26;
-            if (keyValue < 0) {
-                keyValue = ALPHABET.length() + keyValue;
-            }
-            char replaceVal = ALPHABET.charAt(keyValue);
-            decryptedText += replaceVal;
-        }
-        return decryptedText;
-
-    }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the string for encryption : ");
@@ -41,7 +25,5 @@ public class CaesarCiper {
         int shiftKey = sc.nextInt();
         String encryptedMsg = encrypt(message, shiftKey);
         System.out.println("Encrypted Message : " + encryptedMsg);
-        String decryptedMsg = decrypt(encryptedMsg, shiftKey);
-        System.out.println("Decrypted Message : " + decryptedMsg);
     }
 }
